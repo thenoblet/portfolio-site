@@ -92,7 +92,7 @@ a:hover {
     width: 100%;
     height: 2px;
     background-color: black;
-    transition: all 0.3 ease-in-out;
+    transition: all 300ms ease-in-out;
 }
 
 .menu-links {
@@ -103,17 +103,17 @@ a:hover {
     width: fit-content;
     max-height: 0;
     overflow: hidden;
-    transition: all 0.3 ease-in-out;
+    transition: all 300ms ease-in-out;
 }
 
 .menu-links a {
-    text-decoration: none;
     display: block;
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
     color: black;
-    transition: all 0.3 ease-in-out;
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
 }
 
 .menu-links li {
@@ -147,3 +147,239 @@ a:hover {
 .hamburger-icon span:first-child {
     transform: none;
 }
+
+
+
+/* SECTIONS */
+
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-pic-container {
+    display: flex;
+}
+
+
+/* PROFILE SECTION */
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+    margin-bottom: 2rem;
+}
+
+.section-pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.profile-pic {
+    border-radius: 20rem;
+}
+
+.section-text {
+    align-self: center;
+    text-align: center;
+}
+
+.section-text p {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.section-text-p1 {
+    text-align: center;
+    cursor: pointer;
+}
+
+.section-text-p2 {
+    font-size: 1.55rem;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+
+
+/* ICONS */
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+
+/* BUTTONS */
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+button {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.cv-button, .contact-info-button {
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.cv-button:hover,
+.contact-info-button:hover {
+    cursor: pointer;
+}
+
+.contact-info-button,
+.cv-button:hover {
+    background: rgb(53, 53, 53);
+    color: white;
+}
+
+.contact-info-button:hover {
+    background: rgb(0, 0, 0);
+}
+
+.cv-button {
+    background: none;
+}
+
+.cv-button:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.button-container {
+    gap: 1rem;
+}
+
+
+/* ABOUT SECTION*/
+
+#about {
+    position: relative;
+}
+
+.title-2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.section-pic-container, .section-container {
+    display: flex;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers, .about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+
+.section-pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+
+
+/* EXPERIENCE SECTION*/
+
+#experience {
+    position: relative;
+}
+
+.experience-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+article .icon {
+    cursor: default;
+}
+
+
+/* PROJECTS SECTION */
