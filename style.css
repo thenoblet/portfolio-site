@@ -383,3 +383,11 @@ article .icon {
 
 
 /* PROJECTS SECTION */
+
+#projects {
+    position: relative;
+}
+
+.color-container {
+    border-color: rgb(163, 163, 163)
+}
