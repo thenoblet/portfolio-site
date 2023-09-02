@@ -414,3 +414,7 @@ article .icon {
     justify-content: center;
     align-items: center;
 }
+
+.explore-button {
+    width: auto;
+}
