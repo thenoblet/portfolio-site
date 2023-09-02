@@ -30,6 +30,16 @@ a, .button {
 
 /* DESKTOP NAVIGATION */
 
+#desktop-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Make it span the full width of the viewport */
+    background-color: white; /* You can set a background color if needed */
+    z-index: 1000; /* Ensure it appears above other content */
+    /* Add any other styling you want for your fixed navbar */
+}
+
 nav, .nav-links {
     display: flex;
 }
