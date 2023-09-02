@@ -418,6 +418,10 @@ article .icon {
     color: black;
 }
 
+.project-description-text {
+    text-align: justify;
+}
+
 .project-button {
     color: black;
     border-color: rgb(163, 163, 163);
