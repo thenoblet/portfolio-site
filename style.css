@@ -172,6 +172,7 @@ section {
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
+    margin-top: 2rem;
 }
 
 .section-pic-container {
@@ -187,6 +188,7 @@ section {
     gap: 5rem;
     height: 80vh;
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .section-pic-container {
