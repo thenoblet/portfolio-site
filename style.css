@@ -30,11 +30,12 @@ a, .button {
 
 /* DESKTOP NAVIGATION */
 
-#desktop-nav {
+#desktop-nav, #hamburger-nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%; /* Make it span the full width of the viewport */
+    height: 10vh;
     background-color: white; /* You can set a background color if needed */
     z-index: 1000; /* Ensure it appears above other content */
     /* Add any other styling you want for your fixed navbar */
