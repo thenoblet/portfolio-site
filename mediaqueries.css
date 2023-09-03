@@ -57,7 +57,7 @@
     }
     .profile-pic,
     .about-pic {
-    max-width: ;
+    max-width: 100%;
     height: auto;
     }
     article {
