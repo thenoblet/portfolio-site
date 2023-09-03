@@ -58,6 +58,9 @@
         height: fit-content;
         margin-bottom: 2rem;
     }
+    .about-containers, .contact-info-container {
+
+    }
 }
 
 
