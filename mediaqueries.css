@@ -54,7 +54,6 @@
     #profile {
         height: 80vh;
         margin-bottom: 0;
-        padding-bottom: 0;
     }
     /* CSS for profile and about images */
     .profile-pic,
@@ -94,8 +93,8 @@
         text-align: center;
     }
     .section-pic-container {
-        width:  60vw;
-        height: 25vh;
+        width:  auto;
+        height: 40vh;
         justify-content: center;
     }
     .section-text-p2 {
