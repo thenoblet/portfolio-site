@@ -83,6 +83,9 @@
         height: 46vh;
         justify-content: center;
     }
+    section-text-p2 {
+        font-size: 1.25rem;
+    }
 }
 
 
