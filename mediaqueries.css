@@ -86,7 +86,9 @@
     .section-text-p2 {
         font-size: 1.25rem;
     }
-    .title, .title-2
+    .title, .title-2 {
+        font-size: 2rem;
+    }
 }
 
 
