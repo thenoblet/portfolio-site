@@ -62,8 +62,8 @@
         height: fit-content;
         margin-bottom: 2rem;
     }
-    footer p {
-        margin-bottom: 2rem;
+    .copyright {
+        padding-bottom: 1rem;
     }
     .about-containers, .project-container, .button-container {
         flex-wrap: wrap;
