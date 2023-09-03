@@ -237,6 +237,13 @@ section {
     gap: 1rem;
 }
 
+/* CSS for images */
+img {
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+
+
 
 
 /* ICONS */
