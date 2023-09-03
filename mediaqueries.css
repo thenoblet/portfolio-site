@@ -41,7 +41,7 @@
     .about-containers {
         margin-top: 0
     }
-    .project-container{
+    .project-container, .contact-info-upper-container {
         flex-wrap: wrap;
     }
 }
@@ -62,7 +62,7 @@
         height: fit-content;
         margin-bottom: 2rem;
     }
-    .about-containers, .project-container .contact-info-upper-container, .button-container {
+    .about-containers, .project-container, .button-container {
         flex-wrap: wrap;
     }
     .contact-info-container {
