@@ -438,7 +438,7 @@ article .icon {
     /* flex-wrap: wrap; Wrap items to the next line if they don't fit */
   }
 
-  /* Optionally, you can add some margin or padding to the items for spacing */
+
   .project-container .experience-container {
     margin: 10px; /* Add margin to each project item */
     flex: 1; /* Allow each item to grow and occupy equal space */
