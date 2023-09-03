@@ -80,7 +80,8 @@
     }
     .section-pic-container {
         width:  auto;
-        height: 46vw;
+        height: 46vh;
+        justify-content: center;
     }
 }
 
