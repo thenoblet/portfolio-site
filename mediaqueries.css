@@ -15,7 +15,7 @@
         display: none;
     }
     #hamburger-nav {
-        display: block;
+        display: flex;
     }
     #experience, .experience-details-container {
         margin-top: 2rem;
@@ -41,6 +41,7 @@
     .about-containers {
         margin-top: 0
     }
+    .logo
 }
 
 
