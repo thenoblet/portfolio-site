@@ -243,6 +243,13 @@ img {
     height: auto; /* Automatically adjust the height to maintain aspect ratio */
 }
 
+/* CSS for profile and about images */
+.profile-pic,
+.about-pic {
+  max-width: 100%;
+  height: auto;
+}
+
 
 /* ICONS */
 
