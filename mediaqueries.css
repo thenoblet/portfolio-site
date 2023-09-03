@@ -61,6 +61,9 @@
     .about-containers, .contact-info-upper-container, .button-container {
         flex-wrap: wrap;
     }
+    .contact-info-container {
+        margin: 0;
+    }
 }
 
 
