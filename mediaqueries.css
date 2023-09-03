@@ -55,13 +55,11 @@
         height: 83vh;
         margin-bottom: 0;
     }
-    /* CSS for profile and about images
     .profile-pic,
     .about-pic {
-    max-width: auto;
+    max-width: ;
     height: auto;
-    }*/
-
+    }
     article {
         font-size: 1rem;
     }
