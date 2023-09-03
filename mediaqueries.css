@@ -94,7 +94,7 @@
     }
     .section-pic-container {
         width:  auto;
-        height: auto;
+        height: 25vh;
         justify-content: center;
     }
     .section-text-p2 {
