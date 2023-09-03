@@ -75,6 +75,11 @@
     }
     .nav-links {
         flex-direction: column;
+        gap: o.5rem;
+        text-align: center;
+    }
+    .section-pic-container {
+        width:  auto;
     }
 }
 
