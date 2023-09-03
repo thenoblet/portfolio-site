@@ -410,11 +410,6 @@ article .icon {
     background: rgb(250, 250, 250);
 }
 
-.project-details-container {
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .project-img {
     border-radius: 2rem;
     width: 90%;
