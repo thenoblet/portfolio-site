@@ -446,3 +446,12 @@ article .icon {
 .explore-button {
     width: auto;
 }
+
+
+/* CONTACT SECTION */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
