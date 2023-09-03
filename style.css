@@ -435,7 +435,7 @@ article .icon {
     display: flex; /* Use flexbox layout */
     justify-content: space-between; /* Spread items horizontally */
     align-items: center; /* Center items vertically */
-    flex-wrap: wrap; /* Wrap items to the next line if they don't fit */
+    /* flex-wrap: wrap; Wrap items to the next line if they don't fit */
   }
 
   /* Optionally, you can add some margin or padding to the items for spacing */
