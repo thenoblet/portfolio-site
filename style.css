@@ -411,7 +411,8 @@ article .icon {
 }
 
 .project-details-container {
-    flex-wrap
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .project-img {
