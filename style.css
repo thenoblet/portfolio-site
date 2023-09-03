@@ -461,5 +461,6 @@ article .icon {
     display: flex;
     justify-content: center;
     border-radius: 2rem;
-    border: rgb(53, 53, 53)
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rg
 }
