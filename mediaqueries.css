@@ -58,7 +58,7 @@
     /* CSS for profile and about images */
     .profile-pic,
     .about-pic {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     }
 
