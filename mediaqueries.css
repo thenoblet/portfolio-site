@@ -6,7 +6,7 @@
     .about-containers {
         flex-wrap: wrap;
     }
-    
+
 }
 
 
@@ -30,7 +30,7 @@
         height: fit-content;
     }
     section {
-        margin: 0, 5%;
+        margin: 0 5%;
     }
 
     .section-pic-container {
